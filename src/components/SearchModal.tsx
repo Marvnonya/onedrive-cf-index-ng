@@ -46,7 +46,7 @@ function mapAbsolutePath(path: string): string {
  *
  * @returns A react hook for a debounced async search of the drive
  */
-{/* 
+{/* comment 
 function useDriveItemSearch() {
   const [query, setQuery] = useState('')
   const searchDriveItem = async (q: string) => {
@@ -80,7 +80,7 @@ function useDriveItemSearch() {
     results,
   }
 }
-
+{/* comment 
 function SearchResultItemTemplate({
   driveItem,
   driveItemPath,
@@ -114,7 +114,7 @@ function SearchResultItemTemplate({
     </Link>
   )
 }
-
+{/* comment 
 function SearchResultItemLoadRemote({ result }: { result: OdSearchResult[number] }) {
   const { data, error }: SWRResponse<OdDriveItem, { status: number; message: any }> = useSWR(
     [`/api/item?id=${result.id}`],
@@ -147,7 +147,7 @@ function SearchResultItemLoadRemote({ result }: { result: OdSearchResult[number]
     />
   )
 }
-
+{/* comment 
 function SearchResultItem({ result }: { result: OdSearchResult[number] }) {
   if (result.path === '') {
     // path is empty, which means we need to fetch the parentReference to get the path
@@ -165,7 +165,7 @@ function SearchResultItem({ result }: { result: OdSearchResult[number] }) {
     )
   }
 }
-
+{/* comment 
 export default function SearchModal({
   searchOpen,
   setSearchOpen,
@@ -179,7 +179,7 @@ export default function SearchModal({
     setSearchOpen(false)
     setQuery('')
   }
-
+{/* comment 
   return (
     <Transition appear show={searchOpen} as={Fragment}>
       <Dialog as="div" className="fixed inset-0 z-[200] overflow-y-auto" onClose={closeSearchBox}>
