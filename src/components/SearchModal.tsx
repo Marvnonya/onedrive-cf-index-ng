@@ -1,3 +1,4 @@
+{/* 
 import axios from 'axios'
 import useSWR, { SWRResponse } from 'swr'
 import { Dispatch, Fragment, SetStateAction, useState } from 'react'
@@ -23,6 +24,8 @@ import siteConfig from '../../config/site.config'
  * @param path Path returned from the parentReference field of the driveItem
  * @returns The absolute path of the driveItem in the search result
  */
+
+{/* 
 function mapAbsolutePath(path: string): string {
   // path is in the format of '/drive/root:/path/to/file', if baseDirectory is '/' then we split on 'root:',
   // otherwise we split on the user defined 'baseDirectory'
@@ -43,6 +46,7 @@ function mapAbsolutePath(path: string): string {
  *
  * @returns A react hook for a debounced async search of the drive
  */
+{/* 
 function useDriveItemSearch() {
   const [query, setQuery] = useState('')
   const searchDriveItem = async (q: string) => {
