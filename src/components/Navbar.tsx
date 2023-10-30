@@ -65,7 +65,7 @@ const Navbar = () => {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
-        {/* comment
+        
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
           <button
             className="flex flex-1 items-center justify-between rounded-lg bg-gray-100 px-2.5 py-1.5 hover:opacity-80 dark:bg-gray-800 dark:text-white md:w-48"
@@ -98,7 +98,7 @@ const Navbar = () => {
                 <span className="hidden text-sm font-medium md:inline-block">{l.name}</span>
               </a>
             ))}
-          comment end */} 
+          
 
           {siteConfig.email && (
             <a href={siteConfig.email} className="flex items-center space-x-2 hover:opacity-80 dark:text-white">
