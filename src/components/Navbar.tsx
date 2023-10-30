@@ -83,7 +83,7 @@ const Navbar = () => {
               <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">K</div>
             </div>
           </button>
-          comment end */} 
+          
 
           {siteConfig.links.length !== 0 &&
             siteConfig.links.map((l: { name: string; link: string }) => (
@@ -98,6 +98,7 @@ const Navbar = () => {
                 <span className="hidden text-sm font-medium md:inline-block">{l.name}</span>
               </a>
             ))}
+          comment end */} 
 
           {siteConfig.email && (
             <a href={siteConfig.email} className="flex items-center space-x-2 hover:opacity-80 dark:text-white">
