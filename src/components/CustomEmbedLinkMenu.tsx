@@ -99,18 +99,10 @@ export default function CustomEmbedLinkMenu({
                   value={name}
                   onChange={e => setName(e.target.value)}
                 />
+                
+
 
                 
-                <LinkContainer
-                  title={'Customised'}
-                  value={`${getBaseUrl()}/api/name/${name}?path=${readablePath}${
-                    hashedToken ? `&odpt=${hashedToken}` : ''
-                  }`}
-                />
-                <LinkContainer
-                  title={'Customised and encoded'}
-                  value={`${getBaseUrl()}/api/name/${name}?path=${path}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
-                />
               </div>
             </div>
           </Transition.Child>
