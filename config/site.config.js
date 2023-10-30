@@ -40,7 +40,11 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   // This is the path relative to `baseDirectory` above, not relative to root in your Onedrive.
-  protectedRoutes: ['/', '/Movies & Series'],
+  protectedRoutes: ['/Movies & Series/Arcane - League of legends (4k)', 
+                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S01.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
+                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S02.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
+                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S03.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
+                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S04.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
