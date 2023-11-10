@@ -44,7 +44,8 @@ module.exports = {
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S01.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S02.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S03.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
-                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S04.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA'],
+                    '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S04.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
+                    '/Movies & Series/Loki'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
