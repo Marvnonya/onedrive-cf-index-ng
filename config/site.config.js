@@ -45,6 +45,8 @@ module.exports = {
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S02.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S03.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
                     '/Movies & Series/Scorpion.2014.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA/Scorpion.S04.1080p.AMZN.WEBRip.DDP5.1.x265-SiGMA',
+                    '/Movies & Series/Pantheon (1080p)/Season 01',
+                    '/Movies & Series/Pantheon (1080p)/Season 02',
                     '/Movies & Series/Loki/Season 01',
                     '/Movies & Series/Loki/Season 02'],
 
