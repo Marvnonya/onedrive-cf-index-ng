@@ -49,6 +49,8 @@ module.exports = {
                     '/Movies & Series/Pantheon (1080p)/Season 02',
                     '/Movies & Series/Hot Zone',
                     '/Movies & Series/Percy.Jackson.and.the.Olympians.S01.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-ZeroTwo',
+                    '/Movies & Series/The boys S04 1080p',
+                    '/Movies & Series/The boys S04 2160p',
                     '/Movies & Series/Loki/Season 01',
                     '/Movies & Series/Loki/Season 02'],
 
