@@ -52,7 +52,8 @@ module.exports = {
                     '/Movies & Series/The boys S04 1080p',
                     '/Movies & Series/The boys S04 2160p',
                     '/Movies & Series/Loki/Season 01',
-                    '/Movies & Series/Loki/Season 02'],
+                    '/Movies & Series/Loki/Season 02',
+                    '/Temp Share'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
